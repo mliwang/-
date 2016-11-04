@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i5"
+    android:orientation="vertical"
+    tools:context="cn.calculate.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="30dp"
+         android:layout_gravity="center"
+        android:text="欢迎您的到来！"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="接下来你将有100分钟的时间完成以下20道题目，满分100分"
+        android:textColor="#00000f"
+        android:textSize="14dp" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="start"
+        android:text="点我开始答题"
+        android:textColor="#ff0000" />
+
+</LinearLayout>

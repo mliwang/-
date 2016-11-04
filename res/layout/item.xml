@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="horizontal" >
+    <TextView 
+        android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/x1"
+    android:gravity="center"
+    android:text=""
+    android:hint="序号"
+    android:textSize="18sp"
+    android:layout_weight="1"
+        />
+    <TextView 
+        android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/t1"
+    android:gravity="center"
+    android:text=""
+    android:hint="题目"
+    android:textSize="18sp"
+    android:layout_weight="3"
+        />
+    <EditText 
+        android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/a1"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:text=""
+    android:hint="请输入结果"
+    android:textSize="18sp"
+     android:layout_weight="1"
+        />
+
+</LinearLayout>
